@@ -13,5 +13,3 @@ if block_given?
 else "Hey! No block was given!"
 end 
 end
-
- 
