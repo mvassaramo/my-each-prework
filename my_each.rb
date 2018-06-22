@@ -5,7 +5,7 @@ i = 0
 while i < array.length 
     yield(array[i])
 
-array.collect do |item|
+array.map do |item|
      item 
   i += 1 
 end 
