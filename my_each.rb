@@ -7,7 +7,9 @@ if block_given?
     yield(array[i]) 
   i += 1 
   end 
-return array 
+  
+  return array 
+
 else "Hey! No block was given!"
 end 
 end
