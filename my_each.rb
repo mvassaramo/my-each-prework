@@ -10,6 +10,7 @@ array.map do |item|
   i += 1 
 end 
 return array 
+else   puts "Hey! No block was given!"
 end 
 
 end
