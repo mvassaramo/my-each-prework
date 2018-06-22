@@ -4,7 +4,7 @@ i = 0
 
 while i < array.length 
 
-array.map do |item|
+array.collect do |item|
    item 
   i += 1 
 end 
