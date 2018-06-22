@@ -8,6 +8,6 @@ array.collect do |item|
      item 
   i += 1 
 end 
-
+return array 
 end 
 end
