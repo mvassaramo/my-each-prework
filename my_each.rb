@@ -6,6 +6,7 @@ while i < array.length
 
 array.each do |item|
   puts item 
+  i += 1 
 end 
 
 end 
