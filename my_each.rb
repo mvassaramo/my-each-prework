@@ -5,7 +5,7 @@ i = 0
 while i < array.length 
 
 array.collect do |item|
-    puts item 
+     item 
   i += 1 
 end 
 
